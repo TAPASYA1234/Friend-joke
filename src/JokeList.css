@@ -1,0 +1,74 @@
+.JokeList{
+    display: flex;
+    width: 80%;
+    height: 80%;
+
+}
+
+.JokeList-sidebar{
+    background: #8c6bc4 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 29px 38px rgba(0,0,0,0.5),0 15px 12px rgba(0,0,0,0.1);
+    
+}
+
+.JokeList-title{
+    font-size: 3.5rem;
+    margin: 2rem;
+    color: rgb(224, 224, 219);
+    font-weight: 300;
+    letter-spacing: 0.6rem;
+
+}
+.JokeList-title span{
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.JokeList-jokes{
+    height: 90%;
+    background: blanchedalmond;
+    align-items: center;
+    align-self: center;
+    width: 70%;
+    overflow: scroll;
+    box-shadow: 0 29px 38px rgba(0,0,0,0.5),0 15px 12px rgba(0,0,0,0.1);
+
+}
+
+.JokeList-spinner{
+    color: rgb(226, 74, 193);
+    text-align: center;
+}
+.JokeList-getmore{
+    font-size: 1.8rem;
+    width: 50%;
+    border-radius: 2rem;
+    padding :0.8rem 1rem;
+    color: rgb(15, 14, 14);
+    margin: 2rem;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.8s ease cubic-bezier(0.2,1,0.2,1);
+    background: linear-gradient(
+    135deg,
+    rgb(250, 235, 29)0%,
+    rgb(62, 224, 210)50%,
+    rgb(236, 56, 191)50%,
+      rgb(226, 21, 209)100%
+  );
+  box-shadow: 0 29px 38px rgba(0,0,0,0.5),0 15px 12px rgba(0,0,0,0.1);
+
+}
+
+.JokeList-getmore:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+    transform: translateY(-4px);
+}

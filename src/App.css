@@ -1,0 +1,15 @@
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Lobster', cursive;
+  background: linear-gradient(
+    135deg,
+    rgb(250, 235, 29)0%,
+    rgb(62, 224, 210)50%,
+    rgb(236, 56, 191)50%,
+      rgb(226, 21, 209)100%
+  );
+
+}
